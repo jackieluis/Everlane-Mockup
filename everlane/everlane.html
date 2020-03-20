@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="everlane.css">
+     <!-- load jQuery and the plugin -->
+ <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+ <script src="bjqs-1.3.min.js"></script>
+ <!-- Here are the style sheets -->
+ <link type="text/css" rel="Stylesheet" href="bjqs.css" />
+ <link rel="stylesheet" href="demo.css">
+ <!-- IMPORTANT:  Put your CSS after this line -->
+    <title>Everlane | Modern Basics. Radical Transparency.</title>
+</head>
+<body>
+  
+  <header>
+    <div style="float: left;padding-left: 50px;">
+      <nav>
+        <ul>
+        <li><a href="#" style="width: 60px;">Women</a></li> 
+        <li><a href="#" style="width: 40px;">Men</a></li> 
+        <li><a href="#" style="width: 70px;">Gift Shop</a></li> 
+        <li><a href="#" style="width:45px;">Denim</a></li>
+        <li><a href="#"style="width: 60px;">About</a></li> 
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <img src="images/everlaneLogo.png" alt="Everlane Logo" style="width: 105px; height:60px; padding-left: 15px;">
+      <nav style="float: right; padding-left: 74px;">
+        <ul>
+        <li><a href="#">Log In</a></li> 
+        <li><a href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<section>
+  <div id="banner-fade">
+
+ <ul class="bjqs">
+   <li><img src="images/everlane1.jpg" title=""></li>
+   <li><img src="images/everlane2.jpg" title=""></li>
+   <li><img src="images/everlane3.jpg" title=""></li>
+ </ul>
+
+ </div>
+
+ <script class="secret-source">
+ jQuery(document).ready(function($) {
+$('#banner-fade').bjqs({
+ height : 500,
+ width :955,
+ responsive : true
+ });
+});
+ </script>
+</section>
+<section>
+    <article style="padding-bottom: 30px;">
+        <h3 style="text-align:center; padding-bottom: 20px;">Our Promise- Radical Transperancy</h3>
+        <div style="float: left">
+          <img src="images/jeans.jpg" alt="Jeans being dyed at warehouse" style="width: 440px; height:380px;padding-left: 5px;">
+          <p style="text-align:center">Meet the world's cleanest denim factory.</p>
+        </div>
+        <div style="float: right;">
+          <img src="images/shoeMaking.jpg" alt="Shoes being made at warehouse" style="width: 440px; height:380px;padding-left: 40px;">
+           <p style="text-align:center">Ethically made. Designed to last.</p>
+        </div>
+    </article>
+</section>
+
+<section class="reviews">
+    <article>
+        <div style="float:left; padding-right:120px; padding-left:60px;">
+          <h4> From The People- Customer Reviews</h4>
+          <p style="font-size:40px; text-align: justify;">"A good day<br> starts with a <br> comfortable shoe."<br></p>
+          <p style="font-size: 15px;text-align: justify;">-Lisa</p>
+        </div>
+    </article>
+    <article>
+        <div style="float:right; padding: 20px;">
+          <iframe width="350" height="300" src="https://www.youtube.com/embed/gLUJJjzoT2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </article>
+</section>
+<section style="padding-top:30px;">
+        <h3>Our Holiday Gift Guides</h3>
+    <article style="width: 450px;float: left; padding-bottom: 10px;padding-top: 30px;">
+    <img src="images/giftsForHer.jpg" alt="Everlane Woman" style="width: 426px; height:536px;padding-left: 20px;">
+    <p>Gifts For Her</p>
+</article>
+<article style="width: 450px;float: left; padding-bottom: 9px;padding-top: 30px;">
+    <img src="images/giftsForHim.jpg" alt="Everlane Man" style="width: 436px; height:536px;padding-left: 10px;">
+    <p>Gifts For Him</p>
+</article>
+</section>
+
+<section>
+    <article style="padding-top:15px;">
+        <h3>Visit Us IRL</h3>
+        <p>Stop by our stores to learn the stories behind our products, get a personal styling session, or shop the latest in person.</p>
+        <p><a href="#">See our five locations.</a></p>
+        <img style="width: 890px;height: 470px;padding-bottom: 10px;" src="images/store.jpg" alt="Inside of an Everlane location">
+    </article>
+</section>
+
+<section class="form">
+   <div style="float:right;">
+     <h3 style="text-align: inherit; padding-left: 50px;">Get a sneak peak.</h3>
+      <p style="text-align: justify;padding-right: 80px;">Sign up to see what we’ve been working on<br> and claim first dibs on all new product launches.<br>
+        Stay in the know, on the go.</p>
+      <form style="float: left; width: 100px; padding: 5px; margin-left:15px; border:hidden">
+           
+        <div style="width:150px; float: left;padding-left: 50px;">
+        Full name:<br>
+            <input type="text" name="firstname" maxlength="4"><br><br>
+        Which styles are you interested in?:<br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Both<br><br>
+        Birthday:<br>
+            <input type="date" name="bday"><br><br>
+        Create a password:<br>
+            <input type="password" name="psw"><br><br>
+        <input type="submit" onclick="alert('Thank you!');" value="Submit">
+        <input type="reset">
+         </div>    
+      </form>
+  </div>
+<div style="border: none; font-family: gadget; color: #000000;">
+   <div class="clothes">
+     <article class="best sellers">
+       <iframe name="mainFrame" src="dayBoot.html" style="float:right; width:430px; height:370px; border: none;"></iframe>
+       <div style="padding-left:100px;">
+       <a href="trainers.html" target="mainFrame">The Trainers</a><br><br>
+       <a href="dayBoot.html" target="mainFrame">The Day Boot</a><br><br>
+       <a href="bomberJacket.html" target="mainFrame">The Bomber Jacket</a><br><br>
+      <a href="legCrop.html" target="mainFrame">Straight Leg Crop</a><br /><br />
+      </div>
+   </article>
+   </div>
+</div> 
+</section>
+
+<footer>
+<section>
+  <div class="endNav">
+    <nav class="footerNav">
+      <ul>
+        <li class="sections">
+            <h4>Account</h4>
+            <ul>
+                <li><a href="#" style="width: 100px;">Manage Account</a></li>
+                <li><a href="#">Saved Items</a></li>
+                <li><a href="#" style="width: 100px;">Orders & Returns</a></li>
+                <li><a href="#" style="width: 100px;">Redeem a Gift Card</a></li>
+            </ul>
+            </li>
+        <li class="sections">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Factories</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact & FAQ</a></li>
+                <li><a href="#">International</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+            </li>
+        <li class="sections">
+            <h4>Stores</h4>
+            <ul>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">San Francisco</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Los Angeles</a></li>
+                <li><a href="#">Brooklyn</a></li>
+            </ul>
+            </li>
+
+        <li class="sections">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Bulk Orders</a></li>
+            </ul>
+            </li>
+        </ul>  
+    </nav>
+  </div>
+  <div class="signUp">
+    <h6>Exceptional quality. Ethical factories. Radical Transparency.<br>
+    Sign up to enjoy free U.S. shipping and returns on your first order.</h6>
+    <form style="width: 290px;">
+        <fieldset>
+        Email   <input type="text" style="width: 200px;"><br>
+        </fieldset>
+    </form>
+  </div>
+  </section>
+</footer>
+</body>
+</html>
